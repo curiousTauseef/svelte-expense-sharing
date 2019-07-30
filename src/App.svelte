@@ -4,7 +4,7 @@
 	
 	let people = ["Ophir", "Ulysse"]
 	let expenses = []
-	let currency='¬';
+	let currency='â‚¬';
 	
 	let orderedSummary = [];
 	$: orderedSummary = summarize(expenses, people);
